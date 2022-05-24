@@ -19,6 +19,9 @@ h1 {
     color: #22e740;
     text-shadow: 1px 1px 1px black;
 }  
+button{
+    margin: 0 auto;
+}
 img {
     display: block;
     margin: 0 auto;

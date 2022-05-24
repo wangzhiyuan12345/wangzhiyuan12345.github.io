@@ -13,13 +13,13 @@ function setUserName() {
     let myName = prompt('please print your username');
     localStorage.setItem('name', myName);
     if(!myName || myName === null) setUserName();
-    else myHeading.textContent = 'lets fuck lrher,' + myName;
+    else myHeading.textContent = 'its only a test,' + myName;
 }
 if(!localStorage.getItem('name')){
     setUserName();
 }else{
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'lets fuck lrher,' + storedName;
+    myHeading.textContent = 'its only a test,' + storedName;
 }
 myButton.onclick = function(){
     setUserName();
